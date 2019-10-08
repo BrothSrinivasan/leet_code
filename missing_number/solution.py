@@ -23,13 +23,13 @@ The time complexity is O(n). This is because I iterate over the array once to ge
 """
 
 def findMissing(nums, start, end) -> int:
-	if nums is None or len(nums) < 1:
+	if nums is None or len(nums) < 1: # checks for a valid nums param
 		return -1;
 	else:
-		guassian = (end + 2)*(end + 3)/2;
-		totalArr = 0;
+		guassian = (end + 2)*(end + 3)/2;  # calculates the guassian
+		totalArr = 0; # tracks actual sum
 		
-		for x in nums:
-			totalArr += x;
+		for x in nums: # iterates over the array
+			totalArr += x; # calculates the actual sum
 		
-		return guassian -  totalArr;
+		return guassian -  totalArr; # returns missing number
