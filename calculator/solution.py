@@ -9,7 +9,7 @@
 # You may not assume that the given expression is always valid. (Return 0 if not valid)
 # Do not use the eval built-in library function.
 
-# Explaination of Code:
+# Explanation of Code:
 """
 I first iterate through the given string s to compute all the division and multiplication operators. Because these are of the same level in OOP, they can be computed from left to right without worrying about order. 
 So, while I iterate through string, I keep track of the left and right operand, named first and second, to compute using the appropriate operation. After computing, if the next operation is either division or multiplication
