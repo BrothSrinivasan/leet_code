@@ -1,8 +1,11 @@
+# Author: Barath Srinivasan
+
 # Implement a function to check whether a given linked list contains a cycle.
 # Return true if it has a cycle and return false if it does not have a cycle.
 
-# Note that the function will be called on the head of the linked list.
-# A Node has `.val` and `.next` properties.
+# Notes:
+# function will be called on the head of the linked list.
+# Node has `.val` and `.next` properties.
 
 # Explanation of Code
 """

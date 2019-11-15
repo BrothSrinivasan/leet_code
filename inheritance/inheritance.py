@@ -1,5 +1,3 @@
-# usr/bin/python3.6
-
 # Author: Barath Srinivasan
 
 # Design the class structure for a banking system using object-oriented principles

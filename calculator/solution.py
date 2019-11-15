@@ -5,9 +5,8 @@
 # The integer division should truncate toward zero.
 # Make sure to follow order of operations!
 
-# Note:
-# You may not assume that the given expression is always valid. (Return 0 if not valid)
-# Do not use the eval built-in library function.
+# Notes:
+# you may not assume that the given expression is always valid. (Return 0 if not valid)
 
 # Explanation of Code:
 """

@@ -1,3 +1,5 @@
+# Author: Barath Srinivasan
+
 # Write a method to merge k Sorted Linked Lists.
 
 # Explanation of Code
